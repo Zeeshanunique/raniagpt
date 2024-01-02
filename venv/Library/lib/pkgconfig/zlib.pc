@@ -1,0 +1,13 @@
+prefix=G:/LLM_Projects/GeminiLLMAPP/venv/Library
+exec_prefix=G:/LLM_Projects/GeminiLLMAPP/venv/Library
+libdir=G:/LLM_Projects/GeminiLLMAPP/venv/Library/lib
+sharedlibdir=G:/LLM_Projects/GeminiLLMAPP/venv/Library/lib
+includedir=G:/LLM_Projects/GeminiLLMAPP/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
